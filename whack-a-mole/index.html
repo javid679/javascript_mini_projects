@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css"></link>
+    <title>Whack-a-mole</title>
+  </head>
+  <body>
+    <h2>Your Score:</h2>
+    <h2 id="score"></h2>
+    <h2>Time Left:</h2>
+    <h2 id="time-left">60</h2>
+    <div class="buttons">
+      <input
+      type="button"
+      onClick="moveMole(), startCountDown()"
+      value="start game"
+      class="start-button"
+    />
+    <input
+      type="button"
+      onClick="stopMole()"
+      value="stop game"
+      class="stopBtn"
+    />
+    </div>
+    
+    <div class="grid">
+      <div class="square" id="1">
+        <img class="wgs_dirt-pile" src="mole-hill.png" alt="mole-hill" />
+      </div>
+      <div class="square" id="2">
+        <img class="wgs_dirt-pile" src="mole-hill.png" alt="mole-hill" />
+      </div>
+      <div class="square" id="3">
+        <img class="wgs_dirt-pile" src="mole-hill.png" alt="mole-hill" />
+      </div>
+      <div class="square" id="4">
+        <img class="wgs_dirt-pile" src="mole-hill.png" alt="mole-hill" />
+      </div>
+      <div class="square" id="5">
+        <img class="wgs_dirt-pile" src="mole-hill.png" alt="mole-hill" />
+      </div>
+      <div class="square" id="6">
+        <img class="wgs_dirt-pile" src="mole-hill.png" alt="mole-hill" />
+      </div>
+      <div class="square" id="7">
+        <img class="wgs_dirt-pile" src="mole-hill.png" alt="mole-hill" />
+      </div>
+      <div class="square" id="8">
+        <img class="wgs_dirt-pile" src="mole-hill.png" alt="mole-hill" />
+      </div>
+      <div class="square" id="9">
+        <img class="wgs_dirt-pile" src="mole-hill.png" alt="mole-hill" />
+      </div>
+    </div>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>

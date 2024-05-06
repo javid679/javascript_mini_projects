@@ -1,0 +1,39 @@
+.grid{
+  display: flex
+  flex-wrap: wrap;
+  width: 980px;
+  height: 845px;
+  border: solid black;
+}
+
+.square {
+  display: inline-block;
+  width: 320px;
+  height: 281px;
+  position: relative;
+  overflow: hidden;
+}
+
+.mole {
+  width: 188px;
+  height: 178px;
+  position: absolute;
+  left: 54px;
+  transition: top 1s;
+}
+
+.mole-head-hidden{
+  height: 178px;
+  position: absolute;
+  width: 188px;
+  left: 54px;
+  margin-top: 281px;
+  transition: margin-top 1s;
+}
+
+.wgs_dirt-pile {
+  width: 320px;
+  height: 110px;
+  position: absolute;
+  bottom: 40px;
+}
