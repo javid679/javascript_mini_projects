@@ -20,4 +20,6 @@ The JavaScript code controls the game logic and behavior. Here's what it does:
 6. **Game Controls:** It provides functionality for starting and stopping the game using the respective buttons.
 
 Overall, this game demonstrates the use of event handling, DOM manipulation, and interval timers to create an interactive gaming experience.
+
+![Image Alt Text](https://imgur.com/a/U4pNviG)
  
