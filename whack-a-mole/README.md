@@ -1,5 +1,5 @@
 
-Whack-a-Mole Game Description:
+**Whack-a-Mole Game Description:**
 
 This is a simple web-based Whack-a-Mole game created using HTML, CSS, and JavaScript. The objective of the game is to hit the mole as many times as possible within the given time frame. Here's an overview of the components and functionalities:
 
@@ -20,6 +20,8 @@ The JavaScript code controls the game logic and behavior. Here's what it does:
 6. **Game Controls:** It provides functionality for starting and stopping the game using the respective buttons.
 
 Overall, this game demonstrates the use of event handling, DOM manipulation, and interval timers to create an interactive gaming experience.
+
+**Output:**
 
 ![Game](https://github.com/javid679/javascript_mini_projects/blob/main/whack-a-mole/gaemoutput.png  'Game Play')
 
