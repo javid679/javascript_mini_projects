@@ -28,6 +28,6 @@ The game ends when all pairs of cards have been found. At this point, a congratu
 
 Overall, this game demonstrates the use of event handling, array manipulation, and DOM manipulation to create a fun and interactive memory-testing experience.
 
-##Output:
+## Output:
 
 ![Memory-Game](https://github.com/javid679/javascript_mini_projects/blob/main/memory-game/gameoutput.png)
