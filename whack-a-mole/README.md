@@ -21,5 +21,5 @@ The JavaScript code controls the game logic and behavior. Here's what it does:
 
 Overall, this game demonstrates the use of event handling, DOM manipulation, and interval timers to create an interactive gaming experience.
 
-![Image Alt Text](https://imgur.com/Rs2Tl2T)
+![Image Alt text](whack-a-mole/gaemoutput.png)
 
